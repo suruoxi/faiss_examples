@@ -1,0 +1,1 @@
+g++ -std=c++11  -I/usr/local/cuda-8.0/include  -L/usr/local/cuda-8.0/lib64  -L/usr/local/cuda-8.0/lib64/stubs  demo_flat_idmap.cpp ../gpu/libgpufaiss.a  ../libfaiss.a  -o demo_flat_idmap -lcuda -lcudart -lcublas -fopenmp -lopenblas
